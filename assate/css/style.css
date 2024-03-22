@@ -1,0 +1,206 @@
+.navbar {
+  --bs-navbar-toggler-focus-width: 0px;
+}
+header nav {
+  height: 65px;
+  overflow: visible;
+  z-index: 20;
+}
+header .nav-link {
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+}
+header .nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: #6bf45c;
+  transition: 0.5s;
+}
+header .nav-link:hover::before {
+  width: 100%;
+}
+header .nav-link:hover {
+  color: hsl(133, 77%, 50%);
+  background-color: #000;
+}
+
+header .navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #141414;
+}
+header .btn-success {
+  background-color: #16c016;
+}
+header .btn-success:hover {
+  background-color: #269d1b;
+}
+
+header .navbar-brand {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+header .logo-img {
+  height: 40px;
+  width: 40px;
+}
+
+/* nav section end */
+
+.carousel-inner .carousel-item-1 {
+  background-image: linear-gradient(
+      rgba(203, 201, 201, 0.7),
+      rgba(203, 200, 200, 0.7)
+    ),
+    url(../image/laptop-g361bae5f6-1280.jpg);
+  background-size: cover;
+
+  height: auto;
+  width: 100%;
+}
+
+.carousel-inner .hero-text {
+  font-size: 72px;
+  color: #101010;
+}
+
+.carousel-inner .p-text {
+  font-size: 20px;
+  color: #000;
+}
+
+/* hero section end */
+
+.card {
+  background-color: #16c016;
+}
+
+/* popular section start */
+
+.service-img {
+  height: 500px;
+  width: 600px;
+  border-radius: 20px;
+}
+
+.popular-service .activ-text {
+  font-size: 20px;
+}
+
+.popular-service div .service-text {
+  font-size: 56px;
+  width: 700;
+}
+
+/* multi section start */
+
+.multi-page {
+  background-image: url(../image/bg2-1048x493.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.multi-page div .multi-img {
+  width: 820px;
+}
+
+.multi-page .text-bold {
+  font-size: 20px;
+}
+
+/* 
+over section start */
+.over {
+  background-image: linear-gradient(
+      rgba(91, 217, 91, 0.5),
+      rgba(91, 217, 91, 0.5)
+    ),
+    url(../image/bg-worldmap-1080x661.png);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.over .over-inner {
+  padding-top: 120px;
+
+  text-align: center;
+}
+
+.logo {
+  width: 130px;
+  height: 40px;
+}
+
+/* smart section start */
+
+.smart-app .smart-inner {
+  text-align: center;
+}
+.smart-app .card-imgs {
+  background-color: #047904;
+}
+
+/* .smart-app .card-imgs img{
+     height: 250px;
+    width: 250px;
+    
+} */
+
+/* group section start */
+
+.group-section {
+  background-image: linear-gradient(
+      rgba(203, 201, 201, 0.5),
+      rgba(203, 200, 200, 0.5)
+    ),
+    url(../image/group-of-people-team-support-startup-business-1-1080x721.jpg);
+
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.group-section .group-img img {
+  height: 500px;
+  width: 850px;
+}
+
+/* testimonial-section start */
+.testimonial-section {
+  background-image: url(../image/bg5-1-1048x455.png);
+  background-color: rgb(162, 243, 232);
+  height: auto;
+  width: 100%;
+}
+
+.monial-section {
+  width: 90px;
+}
+
+.our-section .team {
+  height: 500px;
+  object-position: center;
+  object-fit: cover;
+}
+
+/* new section start */
+
+.question-section {
+  background-image: url(../image/start-up-business-team-in-the-office-2-1080x673.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 600px;
+}
+
+.reach {
+  padding-top: 90px;
+}
